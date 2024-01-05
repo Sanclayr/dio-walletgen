@@ -4,7 +4,7 @@ const bitcoin = require("bitcoinjs-lib");
 
 const network = bitcoin.networks.testnet;
 
-const path = "m/44'/1'/0'/0/0";
+const path = "m/49'/1'/0'/0";
 
 let mnemonic = bip39.generateMnemonic();
 const seed = bip39.mnemonicToSeedSync(mnemonic);
